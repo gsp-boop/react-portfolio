@@ -1,0 +1,51 @@
+.hero_container {
+    background-color: var(--bg-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+    overflow-y: hidden;
+    padding: 100px 0;
+}
+
+h1 {
+   color: #132C33;
+   letter-spacing: 15px;
+}
+
+.h1_1 h1 {
+    transform: translate(-100px, 0px);
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px)  {
+    .h1_1 h1{
+        transform: translate(0, 0);
+    }
+}
+
+.under-header {
+    text-align: center;
+    letter-spacing: 10px;
+    padding: 1.2rem;
+    max-width: 1000px;
+    margin: 4rem auto;
+
+}
+
+.under-header span {
+    color: var(--bg-red);
+}
+
+.quote {
+    margin-top: 3rem;
+    text-align: right;
+}
+
+.angle {
+    height: 160px;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(8deg, rgba(48,71,94,1) 47%, rgba(245,245,245,0) 47%);
+    bottom: -65px;
+}

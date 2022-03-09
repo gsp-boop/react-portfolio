@@ -1,0 +1,8 @@
+.inputs, .form textarea  {
+    font-size: 1.5rem;
+}
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}

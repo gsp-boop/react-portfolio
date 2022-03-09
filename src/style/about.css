@@ -1,0 +1,87 @@
+.about-container {
+    background-color: var(--bg-dark-blue);
+    position: relative;
+    padding: 10rem 0;
+}
+
+.about-container .container {
+    height: 100%;
+}
+
+.about_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 50%;
+}
+
+.my_name {
+    color: var(--font-color-light);
+    font-family: var(--header-font-fam);
+    letter-spacing: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.profile_pic {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    align-self: center;
+    display: none;
+}
+
+.profile_pic img {
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.pic_active {
+    display: block;
+    animation: slide 1s 
+}
+
+.arrow { text-align: center;}
+
+.arrow svg {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.arrow svg:hover {
+    color: var(--bg-light)
+}
+
+
+.about_content p {
+    min-width: 316px;
+    width: 50%;
+    color: var(--bg-light);
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 770px){
+    .about_content p {
+        width: 100%;
+    }
+
+}
+
+.subHeading {
+    text-align: center;
+    padding: 1.2rem 0;
+}
+
