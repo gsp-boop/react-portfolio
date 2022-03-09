@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Nav, Navbar, Offcanvas } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
