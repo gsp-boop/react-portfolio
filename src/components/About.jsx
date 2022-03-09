@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { ABOUTME } from "./utils/content";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import "../style/about.css";
 
 const About = () => {
   const [count, setCount] = useState(0);
-  const [content, setContent] = useState(ABOUTME[count]);
 
   const changeImg = () => {
     if (count === 2) {
