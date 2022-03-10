@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 
-@keyframes nav-menu {
+@keyframes nav-hide {
     0% {
         transform: translateX(100%);
     }
@@ -64,7 +64,7 @@
 
 
 .hide-smooth {
-    animation: hide 1s forwards;
+    animation: hide 0.2s forwards;
 }
 
 .nav-menu {
@@ -81,7 +81,7 @@
     width: 100%;
     max-width: 900px;
     z-index: 100;
-
+    transform: translateX(100%);
 }
 
 .nav-menu.active {
@@ -100,7 +100,7 @@
 }
 
 .animate {
-    animation: nav-menu 1s forwards;
+    animation: nav-hide 0.2s forwards;
 }
 
 .nav-menu a {

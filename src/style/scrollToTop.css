@@ -1,0 +1,24 @@
+.scrollUpContainer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+.visible {
+    opacity: 1;
+    font-size: 2.2rem;
+    border-radius: 10px;
+    border: transparent;
+    background: var(--bg-red);
+    padding: 4px 8px;
+    transition: 0.2s;
+}
+
+.visible:hover {
+    background-color: #d12e2e;
+}
+
+.not_visible {
+    opacity: 0;
+}
